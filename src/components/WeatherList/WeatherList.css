@@ -1,0 +1,42 @@
+.weatherContainer {
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 230px;
+  width: 180px;
+  padding: 10px;
+  font-size: 18px;
+}
+.weatherContainer img {
+  width: 130px;
+  padding: 0 auto 0 auto;
+}
+.weatherContainer .h1 {
+  font-size: 23px;
+  text-align: center;
+}
+.today {
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  height: 230px;
+  width: 180px;
+  padding: 10px;
+  font-size: 18px;
+  border: 2px solid grey;
+  border-radius: 5px;
+}
+.today .h1 {
+  font-size: 23px;
+  text-align: center;
+}
+
+/*
+.date {
+  position: fixed;
+  margin: 10px;
+  top: 15%;
+  left: 43%;
+}
+*/
